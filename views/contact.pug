@@ -7,15 +7,15 @@ html
         h2 Contacto
         form(action="/contacto", method="post")
             div
-            label(for="nombre") Nombre:
-            input(type="text", id="nombre", name="nombre", required)
+                label(for="nombre") Nombre:
+                input(type="text", id="nombre", name="nombre", required)
             div
-            label(for="email") Email:
-            input(type="email", id="email", name="email", required)
+                label(for="email") Email:
+                input(type="email", id="email", name="email", required)
             div
-            label(for="mensaje") Mensaje:
-            textarea(id="mensaje", name="mensaje", required)
+                label(for="mensaje") Mensaje:
+                textarea(id="mensaje", name="mensaje", required)
             div
-            button(type="submit") Enviar
+                button(type="submit") Enviar
 
         include ./footer.pug
